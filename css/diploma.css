@@ -1,0 +1,441 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+@font-face {
+	font-family: "Open Sans";
+	src: url(https://github.com/netology-code/mq-diploma/blob/master/sources/fonts/OpenSans-Bold.ttf);
+	font-weight: bold;
+	font-style: normal;
+}
+
+
+@font-face {
+	font-family: "Open Sans";
+	src: url(https://github.com/netology-code/mq-diploma/blob/master/sources/fonts/OpenSans-Regular.ttf);
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+.page-container {
+	width: 320px;
+	max-width: 640px;
+	margin-left: 20px;
+}
+
+.page-head {
+	width: 100%;
+	background-image: url("https://raw.githubusercontent.com/netology-code/mq-diploma/master/sources/img/football_767.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: #000000;
+	position: relative;
+}
+
+.page-head::after {
+	position: absolute;
+	content: "";
+	background-color: #1c1c39;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	opacity: 0.9;
+}
+
+.logo-container {
+	display: flex;
+	position: relative;
+	z-index: 1;
+}
+
+.logo-link {
+	display: flex;
+	justify-content: center;
+}
+
+.logo-picture {
+	display: flex;
+	width: 42%;
+	height: 36px;
+	margin-top: 30px;
+	fill: #ffffff;
+}
+
+.header-content {
+	display: flex;
+	position: relative;
+	z-index: 1;
+	flex-direction: column;
+	margin-top: 136px;
+	font-family: Open Sans, Arial, sans-serif;
+	font-weight: bold;
+	font-size: 28px;
+	text-transform: uppercase;
+	color: #ffffff;
+}
+
+.first-row-content {
+	margin-left: 18px;
+}
+
+.second-row-content {
+	margin-left: 63px;
+	margin-top: 15px;
+}
+
+.button-container {
+	display: flex;
+	position: relative;
+	z-index: 1;
+	flex-direction: column;
+	margin-top: 88px;
+}
+
+.button {
+	width: 87.5%;
+	box-sizing: border-box;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 8px;
+	border-style: none;
+	border-radius: 20px;
+	background-color: #5e42b0;
+}
+
+.app-store {
+	margin-bottom: 14px;
+}
+
+.google-play {
+    margin-bottom: 83px;
+}
+
+.apple-icon {
+	fill: #ffffff;
+}
+
+.google-icon {
+	fill: #ffffff;
+}
+
+.button-content {
+	display: flex;
+	box-sizing: border-box;
+	width: 40%;
+	margin-left: auto;
+	margin-right: auto;
+    padding-top: 3px;
+}
+
+.button-text {
+	display:flex;
+	flex-direction: column;
+	margin-left: 8px;
+	align-items: flex-start;
+}
+
+.upper-row {
+	font-family: "Open Sans", Arial, sans-serif;
+	font-size: 8px;
+	font-weight: normal;
+	color: #ffffff;
+	text-transform: uppercase;
+}
+
+.lower-row {
+	font-family: "Open Sans", Arial, sans-serif;
+	font-size: 8px;
+	font-weight: bold;
+	color: #ffffff;
+	text-transform: uppercase;
+}
+
+.main-content {
+	margin-top: 0;
+}
+
+.first-section-title {
+	display: block;
+	margin-bottom: 19px;
+	font-family: "Open Sans", Arial, sans-serif;
+	font-size: 50px;
+	font-weight: bold;
+	color: #e7e7e7;
+	text-transform: uppercase;
+	padding-left: 21px;
+}
+
+h1 {
+	padding: 0;
+	margin: 0;
+}
+
+h2 {
+    padding: 0;
+    margin: 0;
+}
+
+.pic {
+	text-align: center;
+}
+
+.article-container {
+	margin-top: -60px;
+}
+
+.article-container-players {
+	margin-top: -30px;
+}
+
+.article-header {
+	padding-left: 21px;
+	display: flex;
+	align-items: flex-end;
+}
+
+.article-number::after {
+	content: "";
+	display: flex;
+	width: 14px;
+	border: 2px solid #5e42b0;
+}
+
+.article-number {
+	font-family: "Open Sans", Arial, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #000000;
+	margin-right: 8px;
+}
+
+.article-title {
+	display: flex;
+	font-family: "Open Sans", Arial, sans-serif;
+	font-size: 23px;
+	font-weight: bold;
+	color: #c1c1c1;
+	text-transform: uppercase;
+	line-height: 18px;
+}
+
+.title-link {
+	font-family: inherit;
+	color: inherit;
+}
+
+.article-content {
+	padding-top: 28px;
+	padding-bottom: 54px;
+	padding-left: 21px;
+	font-family: "Open Sans", Arial, sans-serif;
+	font-size: 15px;
+	line-height: 18px;
+	font-weight: normal;
+	color: #000000;
+
+}
+
+.card-article:first-child {
+	box-sizing: border-box;
+	padding-top: 83px;
+	background-color: #fafafa;
+}
+
+.second {
+	box-sizing: border-box;
+	padding-top: 60px;
+	background-color: #f5f4f9;
+}
+
+.third {
+	box-sizing: border-box;
+	padding-top: 60px;
+	background-color: #5e42b0;
+}
+
+
+.article-number-third {
+	font-family: "Open Sans", Arial, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #000000;
+	margin-right: 8px;
+}
+
+.article-number-third::after {
+	content: "";
+	display: block;
+	width: 14px;
+	border: 2px solid #ffffff;
+}
+
+.article-content-third {
+    padding-top: 28px;
+	padding-bottom: 54px;
+	padding-left: 21px;
+	font-family: "Open Sans", Arial, sans-serif;
+	font-size: 15px;
+	font-weight: normal;
+	color: #ffffff;
+}
+
+.players-third {
+	box-sizing: border-box;
+	padding-top: 60px;
+	background-color: #090c35;
+}
+
+.players-number-third {
+	font-family: "Open Sans", Arial, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #8765dd;
+	margin-right: 8px;
+}
+
+.players-number-third::after {
+	content: "";
+	display: block;
+	width: 14px;
+	border: 2px solid #ffffff;
+}
+
+.card-header {
+	position: relative;
+}
+
+.card-image {
+	width: 100%;
+}
+
+.card-number {
+	box-sizing: border-box;
+	width: 70px;
+	height: 70px;
+	background-color: #5e42b0;
+	padding: 26px 27px 24px;
+	margin-top: 100px;
+	position: absolute;
+	left: 20px;
+	bottom: -10px;
+}
+
+.number {
+	color: #ffffff;
+	font-family: "Open Sans", Arial, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.number::after {
+	content: "";
+	display: flex;
+	width: 12px;
+	border: 2px solid #8f7bc8;
+}
+
+.card-title {
+	margin-top: 25px;
+	margin-bottom: 15px;
+	color: #e7e7e7;
+	font-family: "Open Sans", Arial, sans-serif;
+	font-size: 28px;
+	font-weight: bold;
+	text-transform: uppercase;
+	padding-left: 20px;
+	padding-right: 24px;
+}
+
+.card-content {
+	color: #000000;
+	font-family: "Open Sans", Arial, sans-serif;
+	font-size: 16px;
+	font-weight: normal;
+	margin-bottom: 78px;
+	padding-left: 20px;
+	padding-right: 28px
+}
+
+.number-link {
+	color: inherit;
+}
+
+.footer {
+	box-sizing: border-box;
+	background-image: url(https://raw.githubusercontent.com/netology-code/mq-diploma/master/sources/img/game_767.jpg);
+	background-position: center center;
+	background-color: #000000;
+	position: relative;
+	padding-bottom: 10px;
+	background-size: cover;
+}
+
+.button-footer-logo {
+	background-color: #7352d0;
+	border-style: none;
+	border-radius: 15px;
+	position: relative;
+	z-index: 1; 
+
+}
+
+.logo-picture-footer {
+	fill: #ffffff;
+	padding: 13px 7px;
+}
+
+.button-footer-container {
+	width: 71px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 98px;
+}
+
+.footer-content {
+	width: 87.5%;
+	margin-top: 60px;
+    position: relative;
+	z-index: 1; 
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.download {
+	color: #ffffff;
+	font-family: "Open Sans", Arial, sans-serif;
+	font-size: 32px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.footer-text {
+	color: #9b8ec1;
+	font-family: "Open Sans", Arial, sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.footer::after {
+	position: absolute;
+	content: "";
+	background-color: #1c1c39;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	opacity: 0.9;
+}
+
