@@ -20,7 +20,7 @@ h1 , h2 , h3 {
 	margin: 0;
 }
 
-ul {
+ol {
 	list-style-type: none;
 }
 
@@ -95,8 +95,13 @@ body {
 }
 
 .second-row-content {
+	display: inline-block;
 	margin-left: 63px;
 	margin-top: 15px;
+}
+
+a.link {
+	display: block;
 }
 
 .link-container {
@@ -220,11 +225,6 @@ body {
 	line-height: 18px;
 }
 
-.title-link {
-	font-family: inherit;
-	color: inherit;
-}
-
 .item-content {
 	padding-top: 28px;
 	padding-bottom: 54px;
@@ -304,6 +304,7 @@ body {
 
 picture img {
     width: 100%;
+    height: auto;
 }
 
 .card-number {
@@ -370,7 +371,6 @@ picture img {
 	border-radius: 15px;
 	position: relative;
 	z-index: 1; 
-
 }
 
 .logo-picture-footer {
@@ -423,6 +423,10 @@ picture img {
 
 @media(min-width: 641px) and (max-width: 960px) {
 
+	.logo-picture {
+		height: 56px;
+	}
+
 	.header-content {
 		width: 85%;
 		font-size: 64px;
@@ -435,7 +439,6 @@ picture img {
     }
 
     .second-row-content {
-	    align-items: flex-end;
 	    margin-left: 114px;
     }
 
@@ -511,6 +514,7 @@ picture img {
 		top: -25px;
 		right: 0;
 		bottom: 152px;
+		margin-left: 280px;
 	}
 
 	.card-item {
@@ -604,6 +608,342 @@ picture img {
 
     .footer-text {
     	font-size: 36px;
+    }
+
+}
+
+
+@media(min-width: 961px) {
+
+	.page-head {
+	    background-image: url("https://raw.githubusercontent.com/netology-code/mq-diploma/master/sources/img/football_1920.jpg");
+	}
+
+	.logo-picture {
+		height: 56px;
+	}
+    
+    .header-content {
+		width: 85%;
+		font-size: 90px;
+		margin-left: auto;
+	    margin-right: auto;
+	}
+
+    .second-row-content {
+	    display: block;
+	    margin-left: 450px;
+    }
+
+    .link-container {	
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		width: 37%;
+		min-width: 675px;
+		margin-left: auto;
+	    margin-right: auto;
+	    margin-top: 312px;
+	}
+
+	.link-area {
+		width: 46%;
+		min-width: 306px;
+		margin-left: 0;
+		margin-right: 0;
+		border-radius: 45px;
+		margin-bottom: 87px;
+		padding-bottom: 0;
+	}
+
+	.google-play {
+		padding-left: 25px;
+	}
+
+	.link-area-content {
+		width: 80%;
+		padding-top: 15px;
+		padding-bottom: 15px;
+	}
+
+	.link-area-text {
+		padding-top: 7px;
+	}
+
+	.apple-icon, .google-icon {
+		width: 48px;
+		height: 48px;
+	}
+
+	.upper-row, .lower-row {
+		font-size: 14px;
+	}
+
+	.first-section {
+		position: relative;
+	}
+
+	.first-section-title {
+		padding-left: 980px;
+		margin-top: 80px;
+		margin-bottom: 80px;
+		font-size: 80px;
+	}
+
+	.players-title {
+		padding-left: 190px;
+		margin-top: 118px;
+		margin-bottom: 90px;
+     }
+
+	.pic-athlets {
+		position: absolute;
+		top: -50px;
+		left: 385px;
+		bottom: 80px;
+	}
+
+	.pic-players {
+		position: absolute;
+		top: -60px;
+		right: 100px;
+		bottom: 152px;
+		margin-left: 600px;
+	}
+
+	.card-item {
+    	padding-top: 40px;
+    	padding-left: 956px;
+    }
+
+	.athlets-section-content, .players-section-content {
+	    margin-top: 0;
+    }
+
+    .players, .players-third {
+    	padding-left: 175px;
+    }
+
+    .card-item:first-child {
+	    background-color: #ffffff;
+	    padding-top: 0;
+    }
+
+    .item-content,.item-content-third {
+    	width: 80%;
+    	padding-bottom: 55px;
+    	font-size: 20px;
+    }
+
+    .players-text {
+    	width: 40%;
+    	padding-bottom: 55px;
+    	font-size: 20px;
+    }
+
+    .item-number,.item-number-third, .players-number-third {
+    	font-size: 18px;
+    }
+
+    .item-title {
+    	font-size: 36px;
+    	padding-bottom: 5px;
+    }
+
+    .card {
+    	display: flex;
+	}
+
+    .card-header {
+    	width: 50%;
+    }
+
+    .card-container {
+    	width: 50%;
+    }
+
+    .second-card-header {
+    	order: 1;
+    }
+
+    .second-card {
+        order: 0;
+    }
+
+    .card-title {
+    	display: block;
+    	box-sizing: border-box;
+    	padding-top: 260px;
+    	margin-left: 129px;
+    	margin-bottom: 120px;
+    	font-size: 80px;
+    }
+
+    .card-content {
+    	margin-left: 129px;
+    	margin-bottom: 245px;
+    	font-size: 24px;
+    }
+
+    .footer {
+    	background-image: url(https://raw.githubusercontent.com/netology-code/mq-diploma/master/sources/img/game_1920.jpg);
+    }
+
+    .footer-header {
+    	width: 865px;
+    	display: flex;
+    	justify-content: center;
+    	margin-right: auto;
+    	margin-left: auto;
+    	padding-top: 226px;
+    }
+
+    .logo-footer-container {
+		width: 130px;
+		margin-left: 0;
+		margin-right: 36px;
+		padding-top: 98px;
+   }
+
+   .footer-content {
+   	    width: auto;
+	    position: relative;
+		z-index: 1; 
+		margin-left: 0;
+		margin-right: 0;
+		padding-top: 50px;
+  }
+
+    .download {
+    	font-size: 80px;
+    	line-height: 60px;
+    }
+
+    .footer-text {
+    	font-size: 30px;
+    	margin-top: 22px;
+    	line-height: 30px;
+    	text-align: left;
+    }
+
+    .logo-picture-footer {
+    	width: 87px;
+    	height: 86px;
+    	padding: 20px 16px;
+    }
+	
+	.logo-footer {
+		border-radius: 30px;
+		position: relative;
+		z-index: 1; 
+    }
+
+    .footer-link {
+    	margin-top: 150px;
+    	margin-bottom: 260px;
+    }
+
+	.logo-container {
+		padding-bottom: 52px;
+	}
+
+
+}
+
+
+@media(min-width: 961px) and (max-width: 1300px) {
+
+	.page-head {
+	    background-image: url("https://raw.githubusercontent.com/netology-code/mq-diploma/master/sources/img/football_1280.jpg");
+	}
+	
+    
+    .header-content {
+		width: 85%;
+		font-size: 64px;
+		margin-left: auto;
+	    margin-right: auto;
+	}
+
+    .second-row-content {
+	    display: block;
+	    margin-left: 114px;
+    }
+
+
+    .first-section {
+		position: relative;
+	}
+
+	.first-section-title {
+		padding-left: 288px;
+		margin-top: 50px;
+		margin-bottom: 25px;
+		font-size: 80px;
+	}
+
+	.players-title {
+		padding-left: 14px;
+		margin-top: 50px;
+		margin-bottom: 30px;
+     }
+
+	.pic-athlets {
+		position: absolute;
+		top: 15px;
+		left: -160px;
+		bottom: 80px;
+	}
+
+	.pic-players {
+		position: absolute;
+		top: -25px;
+		right: 0;
+		bottom: 152px;
+		margin-left: 280px;
+	}
+
+	.card-item {
+    	padding-top: 40px;
+    	padding-left: 268px;
+    }
+
+	.athlets-section-content, .players-section-content {
+	    margin-top: 0;
+    }
+
+    .players, .players-third {
+    	padding-left: 0;
+    }
+
+    .card-item:first-child {
+	    background-color: #ffffff;
+	    padding-top: 0;
+    }
+
+    .item-content,.item-content-third {
+    	width: 90%;
+    	padding-bottom: 40px;
+    	font-size: 16px;
+    }
+    
+    .players-text {
+    	width: 54%;
+    	padding-bottom: 40px;
+    	font-size: 16px;
+    }
+
+    .item-number,.item-number-third, .players-number-third {
+    	font-size: 18px;
+    }
+
+    .item-title {
+    	font-size: 32px;
+    	padding-bottom: 5px;
+    }
+
+    .footer {
+    	background-image: url(https://raw.githubusercontent.com/netology-code/mq-diploma/master/sources/img/game_1280.jpg);
     }
 
 
