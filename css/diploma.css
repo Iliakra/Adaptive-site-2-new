@@ -80,10 +80,11 @@ body {
 
 .header-content {
 	display: flex;
+	max-width: 1920px;
 	position: relative;
 	z-index: 1;
 	flex-direction: column;
-	margin-top: 136px;
+	margin-top: 130px;
 	font-weight: bold;
 	font-size: 28px;
 	text-transform: uppercase;
@@ -106,14 +107,16 @@ a.link {
 
 .link-container {
 	display: flex;
+	max-width: 670px;
 	position: relative;
 	z-index: 1;
 	flex-direction: column;
-	margin-top: 88px;
+	margin-top: 75px;
 }
 
 .link-area {
 	width: 87.5%;
+	max-width: 306px;
 	box-sizing: border-box;
 	margin-left: auto;
 	margin-right: auto;
@@ -124,7 +127,7 @@ a.link {
 }
 
 .app-store {
-	margin-bottom: 14px;
+	margin-bottom: 25px;
 }
 
 .google-play {
@@ -193,7 +196,7 @@ a.link {
 }
 
 .players-section-content {
-	margin-top: -30px;
+	margin-top: -60px;
 }
 
 .item-header {
@@ -226,13 +229,15 @@ a.link {
 }
 
 .item-content {
-	padding-top: 28px;
+	max-width: 715px;
+	padding-top: 30px;
 	padding-bottom: 54px;
 	padding-left: 21px;
 	font-size: 15px;
 	line-height: 18px;
 	font-weight: normal;
 	color: #000000;
+	box-sizing: border-box;
 
 }
 
@@ -244,7 +249,7 @@ a.link {
 
 .second {
 	box-sizing: border-box;
-	padding-top: 60px;
+	padding-top: 55px;
 	background-color: #f5f4f9;
 }
 
@@ -308,13 +313,12 @@ picture img {
 }
 
 .card-number {
+	position: absolute;
 	box-sizing: border-box;
 	width: 70px;
 	background-color: #5e42b0;
 	padding: 20px 27px 29px;
-	margin-top: 100px;
-	position: absolute;
-	left: 22px;
+	left: 15px;
 	bottom: -10px;
 }
 
@@ -346,7 +350,7 @@ picture img {
 	color: #000000;
 	font-size: 16px;
 	font-weight: normal;
-	margin-bottom: 78px;
+	margin-bottom: 72px;
 	padding-left: 22px;
 	padding-right: 28px
 }
@@ -382,7 +386,7 @@ picture img {
 	width: 71px;
 	margin-left: auto;
 	margin-right: auto;
-	padding-top: 98px;
+	padding-top: 89px;
 }
 
 .footer-content {
@@ -421,6 +425,14 @@ picture img {
 	opacity: 0.9;
 }
 
+.footer-link {
+	margin-top: 65px;
+}
+
+.footer-google-play {
+	margin-bottom: 50px;
+}
+
 @media(min-width: 641px) and (max-width: 960px) {
 
 	.logo-picture {
@@ -432,14 +444,17 @@ picture img {
 		font-size: 64px;
 		margin-left: auto;
 	    margin-right: auto;
+	    margin-top: 160px;
 	}
 
 	.first-row-content {
 	    align-items: flex-start;
+	    margin-left: 25px;
     }
 
     .second-row-content {
-	    margin-left: 114px;
+    	margin-top: -10px;
+	    margin-left: 128px;
     }
 
 	.link-container {	
@@ -449,7 +464,7 @@ picture img {
 		width: 85%;
 		margin-left: auto;
 	    margin-right: auto;
-	    margin-top: 312px;
+	    margin-top: 290px;
 	}
 
 	.link-area {
@@ -492,7 +507,7 @@ picture img {
 	.first-section-title {
 		padding-left: 288px;
 		margin-top: 50px;
-		margin-bottom: 25px;
+		margin-bottom: 40px;
 		font-size: 80px;
 	}
 
@@ -522,6 +537,7 @@ picture img {
     	padding-left: 268px;
     }
 
+    
 	.athlets-section-content, .players-section-content {
 	    margin-top: 0;
     }
@@ -537,8 +553,9 @@ picture img {
 
     .item-content,.item-content-third {
     	width: 90%;
-    	padding-bottom: 40px;
+    	padding-bottom: 42px;
     	font-size: 16px;
+    	line-height: 28px;
     }
     
     .players-text {
@@ -559,7 +576,8 @@ picture img {
     .card-number {
     	width: 118px;
     	padding: 42px;
-    	bottom: -20px;
+    	bottom: -30px;
+    	left: 35px;
     }
 
     .number {
@@ -572,11 +590,14 @@ picture img {
     
     .card-title {
     	font-size: 80px;
-    	margin-top: 45px;
+    	margin-top: 41px;
+    	padding-left: 25px;
     }   
 
     .card-content {
     	font-size: 24px;
+    	padding-left: 30px;
+    	margin-bottom: 105px;
     }
 
     .footer {
@@ -585,7 +606,7 @@ picture img {
 
     .logo-footer-container {
 	    width: 130px;
-	    padding-top: 126px;
+	    padding-top: 150px;
     }
 
     .logo-picture-footer {
@@ -610,6 +631,14 @@ picture img {
     	font-size: 36px;
     }
 
+    .footer-link {
+    	margin-top: 275px;
+    }
+
+    .footer-link-area {
+    	margin-bottom: 35px;
+    }
+
 }
 
 
@@ -628,11 +657,17 @@ picture img {
 		font-size: 90px;
 		margin-left: auto;
 	    margin-right: auto;
+	    margin-top: 260px;
+	}
+
+	.first-row-content {
+		margin-left: 32px;
 	}
 
     .second-row-content {
 	    display: block;
-	    margin-left: 450px;
+	    margin-left: 480px;
+	    margin-top: -25px;
     }
 
     .link-container {	
@@ -643,7 +678,7 @@ picture img {
 		min-width: 675px;
 		margin-left: auto;
 	    margin-right: auto;
-	    margin-top: 312px;
+	    margin-top: 200px;
 	}
 
 	.link-area {
@@ -652,7 +687,7 @@ picture img {
 		margin-left: 0;
 		margin-right: 0;
 		border-radius: 45px;
-		margin-bottom: 87px;
+		margin-bottom: 110px;
 		padding-bottom: 0;
 	}
 
@@ -684,15 +719,15 @@ picture img {
 	}
 
 	.first-section-title {
-		padding-left: 980px;
+		padding-left: 1000px;
 		margin-top: 80px;
-		margin-bottom: 80px;
+		margin-bottom: 90px;
 		font-size: 80px;
 	}
 
 	.players-title {
 		padding-left: 190px;
-		margin-top: 118px;
+		margin-top: 80px;
 		margin-bottom: 90px;
      }
 
@@ -705,15 +740,15 @@ picture img {
 
 	.pic-players {
 		position: absolute;
-		top: -60px;
-		right: 100px;
+		top: -65px;
+		right: 125px;
 		bottom: 152px;
 		margin-left: 600px;
 	}
 
 	.card-item {
-    	padding-top: 40px;
-    	padding-left: 956px;
+    	padding-top: 59px;
+    	padding-left: 973px;
     }
 
 	.athlets-section-content, .players-section-content {
@@ -731,15 +766,26 @@ picture img {
 
     .item-content,.item-content-third {
     	width: 80%;
-    	padding-bottom: 55px;
+    	padding-bottom: 68px;
     	font-size: 20px;
     }
 
     .players-text {
     	width: 40%;
-    	padding-bottom: 55px;
+    	padding-bottom: 70px;
     	font-size: 20px;
     }
+
+
+    .players-second-text {
+    	padding-bottom: 95px;
+    	padding-top: 23px;
+    }
+
+    .item-content-third {
+    	padding-bottom: 50 px;
+    }
+
 
     .item-number,.item-number-third, .players-number-third {
     	font-size: 18px;
@@ -750,39 +796,19 @@ picture img {
     	padding-bottom: 5px;
     }
 
-    .card {
-    	display: flex;
-	}
 
-    .card-header {
-    	width: 50%;
+    .card-number {
+    	width: 118px;
+    	padding: 42px;
+    	bottom: -20px;
     }
 
-    .card-container {
-    	width: 50%;
+    .number {
+        font-size: 24px;
     }
 
-    .second-card-header {
-    	order: 1;
-    }
-
-    .second-card {
-        order: 0;
-    }
-
-    .card-title {
-    	display: block;
-    	box-sizing: border-box;
-    	padding-top: 260px;
-    	margin-left: 129px;
-    	margin-bottom: 120px;
-    	font-size: 80px;
-    }
-
-    .card-content {
-    	margin-left: 129px;
-    	margin-bottom: 245px;
-    	font-size: 24px;
+    .number::after {
+    	width: 25px;
     }
 
     .footer {
@@ -840,7 +866,7 @@ picture img {
 
     .footer-link {
     	margin-top: 150px;
-    	margin-bottom: 260px;
+    	margin-bottom: 120px;
     }
 
 	.logo-container {
@@ -859,10 +885,7 @@ picture img {
 	
     
     .header-content {
-		width: 85%;
 		font-size: 64px;
-		margin-left: auto;
-	    margin-right: auto;
 	}
 
     .second-row-content {
@@ -946,5 +969,119 @@ picture img {
     	background-image: url(https://raw.githubusercontent.com/netology-code/mq-diploma/master/sources/img/game_1280.jpg);
     }
 
+
+}
+
+@media(min-width: 1860px) {
+
+     .card {
+    	display: flex;
+	}
+
+    .card-header {
+    	width: 50%;
+    }
+
+    .card-container {
+    	box-sizing: border-box;
+    	width: 50%;
+    	padding-left: 129px;
+    }
+
+    .second-card-header {
+    	order: 1;
+    }
+
+    .second-card {
+        order: 0;
+    }
+
+    .card-title {
+    	display: block;
+    	margin-top: 0;
+    	padding-top: 180px;
+    	padding-left: 0;
+    	margin-bottom: 80px;
+    	font-size: 80px;
+    }
+
+    .card-content {
+    	width: 75%;
+    	padding-bottom: 110px;
+    	padding-left: 5px;
+    	font-size: 24px;
+    }
+
+    .card-number {
+		position: absolute;
+		box-sizing: border-box;
+		width: 168px;
+		background-color: #5e42b0;
+		padding: 58px 68px 58px;
+		top: 170px;
+		right: 0;
+		left: auto;
+		bottom: auto;
+		transform: translate(50%);
+    }
+    
+    .card:nth-child(even) .card-number {
+        top: 160px;
+		right: auto;
+		left: 0;
+		bottom: auto;
+		transform: translate(-50%);
+    }
+
+    .card:nth-child(even) .card-container {
+    	box-sizing: border-box;
+    	padding-left: 170px;
+    }
+
+    .card:nth-child(even) .card-title {
+        margin-bottom: 50px;	
+    }
+
+    .number {
+        font-size: 24px;
+    }
+
+    .number::after {
+    	width: 25px;
+    }
+}
+
+@media(min-width: 1921px) {
+
+     .card-item-athlets {	
+        padding-left: 50%;
+    }
+
+    .athlets-title {
+    	padding-left: 50.5%;
+    }
+
+    .players, .players-third {	
+        padding-left: 30%;
+    }
+
+    .players-title {
+    	padding-left: 30.5%;
+    }
+
+    .card:nth-child(even) .card-container {
+    	 padding-right: 120px;
+    }
+
+    .card:nth-child(even) .card-title {
+         text-align: right;
+         
+    }
+
+    .card:nth-child(even) .card-content {
+    	text-align: right;
+    	padding: 0;
+    	margin: 0;
+    }
 
 }
