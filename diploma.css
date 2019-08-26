@@ -1,0 +1,1087 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+}
+
+
+h1 , h2 , h3 {
+	font-family: inherit;
+	font-size: inherit;
+	padding: 0;
+	margin: 0;
+}
+
+ol {
+	list-style-type: none;
+}
+
+@font-face {
+	font-family: "Open Sans";
+	src: url(https://github.com/netology-code/mq-diploma/blob/master/sources/fonts/OpenSans-Bold.ttf);
+	font-weight: bold;
+	font-style: normal;
+}
+
+
+@font-face {
+	font-family: "Open Sans";
+	src: url(https://github.com/netology-code/mq-diploma/blob/master/sources/fonts/OpenSans-Regular.ttf);
+	font-weight: normal;
+	font-style: normal;
+}
+
+body {
+	font-family: "Open Sans", sans-serif;
+}
+
+.page-head {
+	background-image: url("https://raw.githubusercontent.com/netology-code/mq-diploma/master/sources/img/football_767.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: #000000;
+	position: relative;
+}
+
+.page-head::after {
+	position: absolute;
+	content: "";
+	background-color: #1c1c39;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	opacity: 0.9;
+}
+
+.logo-link {
+	display: flex;
+	justify-content: center;
+	position: relative;
+	z-index: 1;
+}
+
+.logo-picture {
+	display: flex;
+	width: 42%;
+	height: 36px;
+	margin-top: 30px;
+	fill: #ffffff;
+}
+
+.header-content {
+	display: flex;
+	max-width: 1920px;
+	position: relative;
+	z-index: 1;
+	flex-direction: column;
+	margin-top: 130px;
+	font-weight: bold;
+	font-size: 28px;
+	text-transform: uppercase;
+	color: #ffffff;
+}
+
+.first-row-content {
+	margin-left: 18px;
+}
+
+.second-row-content {
+	display: inline-block;
+	margin-left: 63px;
+	margin-top: 15px;
+}
+
+a.link {
+	display: block;
+}
+
+.link-container {
+	display: flex;
+	max-width: 670px;
+	position: relative;
+	z-index: 1;
+	flex-direction: column;
+	margin-top: 75px;
+}
+
+.link-area {
+	width: 87.5%;
+	max-width: 306px;
+	box-sizing: border-box;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 2px;
+	border-style: none;
+	border-radius: 20px;
+	background-color: #5e42b0;
+}
+
+.app-store {
+	margin-bottom: 25px;
+}
+
+.google-play {
+    margin-bottom: 83px;
+}
+
+.apple-icon {
+	fill: #ffffff;
+}
+
+.google-icon {
+	fill: #ffffff;
+}
+
+.link-area-content {
+	display: flex;
+	box-sizing: border-box;
+	width: 40%;
+	margin-left: auto;
+	margin-right: auto;
+    padding-top: 3px;
+}
+
+.text-link {
+	display:flex;
+	flex-direction: column;
+	margin-left: 8px;
+	align-items: flex-start;
+}
+
+.upper-row {
+	font-size: 8px;
+	font-weight: normal;
+	color: #ffffff;
+	text-transform: uppercase;
+}
+
+.lower-row {
+	font-size: 8px;
+	font-weight: bold;
+	color: #ffffff;
+	text-transform: uppercase;
+}
+
+
+.main-content {
+	margin-top: 0;
+}
+
+.first-section-title {
+	margin-bottom: 19px;
+	font-size: 50px;
+	font-weight: bold;
+	color: #e7e7e7;
+	text-transform: uppercase;
+	padding-left: 21px;
+}
+
+.pic-athlets, .pic-players {
+	display: block;
+	text-align: center;
+}
+
+.athlets-section-content {
+	margin-top: -60px;
+}
+
+.players-section-content {
+	margin-top: -60px;
+}
+
+.item-header {
+	padding-left: 21px;
+	display: flex;
+	align-items: flex-end;
+}
+
+.item-number::after {
+	content: "";
+	display: flex;
+	width: 14px;
+	border: 2px solid #5e42b0;
+}
+
+.item-number {
+	font-size: 14px;
+	font-weight: bold;
+	color: #000000;
+	margin-right: 8px;
+}
+
+.item-title {
+	display: flex;
+	font-size: 23px;
+	font-weight: bold;
+	color: #c1c1c1;
+	text-transform: uppercase;
+	line-height: 18px;
+}
+
+.item-content {
+	max-width: 715px;
+	padding-top: 30px;
+	padding-bottom: 54px;
+	padding-left: 21px;
+	font-size: 15px;
+	line-height: 18px;
+	font-weight: normal;
+	color: #000000;
+	box-sizing: border-box;
+
+}
+
+.card-item:first-child {
+	box-sizing: border-box;
+	padding-top: 83px;
+	background-color: #fafafa;
+}
+
+.second {
+	box-sizing: border-box;
+	padding-top: 55px;
+	background-color: #f5f4f9;
+}
+
+.third {
+	box-sizing: border-box;
+	padding-top: 60px;
+	background-color: #5e42b0;
+}
+
+
+.item-number-third {
+	font-size: 14px;
+	font-weight: bold;
+	color: #000000;
+	margin-right: 8px;
+}
+
+.item-number-third::after {
+	content: "";
+	display: block;
+	width: 14px;
+	border: 2px solid #ffffff;
+}
+
+.item-content-third {
+    padding-top: 28px;
+	padding-bottom: 54px;
+	padding-left: 21px;
+	font-size: 15px;
+	font-weight: normal;
+	color: #ffffff;
+}
+
+.players-third {
+	box-sizing: border-box;
+	padding-top: 60px;
+	background-color: #090c35;
+}
+
+.players-number-third {
+	font-size: 14px;
+	font-weight: bold;
+	color: #8765dd;
+	margin-right: 8px;
+}
+
+.players-number-third::after {
+	content: "";
+	display: block;
+	width: 14px;
+	border: 2px solid #ffffff;
+}
+
+.card-header {
+	position: relative;
+}
+
+picture img {
+    width: 100%;
+    height: auto;
+}
+
+.card-number {
+	position: absolute;
+	box-sizing: border-box;
+	width: 70px;
+	background-color: #5e42b0;
+	padding: 20px 27px 29px;
+	left: 15px;
+	bottom: -10px;
+}
+
+.number {
+	color: #ffffff;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.number::after {
+	content: "";
+	display: flex;
+	width: 12px;
+	border: 2px solid #8f7bc8;
+}
+
+.card-title {
+	margin-top: 25px;
+	margin-bottom: 15px;
+	color: #e7e7e7;
+	font-size: 28px;
+	font-weight: bold;
+	text-transform: uppercase;
+	padding-left: 19px;
+	padding-right: 24px;
+}
+
+.card-content {
+	color: #000000;
+	font-size: 16px;
+	font-weight: normal;
+	margin-bottom: 72px;
+	padding-left: 22px;
+	padding-right: 28px
+}
+
+.number-link {
+	color: inherit;
+}
+
+.footer {
+	box-sizing: border-box;
+	background-image: url(https://raw.githubusercontent.com/netology-code/mq-diploma/master/sources/img/game_767.jpg);
+	background-position: center center;
+	background-color: #000000;
+	position: relative;
+	padding-bottom: 10px;
+	background-size: cover;
+}
+
+.logo-footer {
+	background-color: #7352d0;
+	border-style: none;
+	border-radius: 15px;
+	position: relative;
+	z-index: 1; 
+}
+
+.logo-picture-footer {
+	fill: #ffffff;
+	padding: 13px 7px;
+}
+
+.logo-footer-container {
+	width: 71px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 89px;
+}
+
+.footer-content {
+	width: 87.5%;
+	margin-top: 60px;
+    position: relative;
+	z-index: 1; 
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.download {
+	color: #ffffff;
+	font-size: 32px;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.footer-text {
+	color: #9b8ec1;
+	font-size: 14px;
+	font-weight: normal;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.footer::after {
+	position: absolute;
+	content: "";
+	background-color: #1c1c39;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	opacity: 0.9;
+}
+
+.footer-link {
+	margin-top: 65px;
+}
+
+.footer-google-play {
+	margin-bottom: 50px;
+}
+
+@media(min-width: 641px) and (max-width: 960px) {
+
+	.logo-picture {
+		height: 56px;
+	}
+
+	.header-content {
+		width: 85%;
+		font-size: 64px;
+		margin-left: auto;
+	    margin-right: auto;
+	    margin-top: 160px;
+	}
+
+	.first-row-content {
+	    align-items: flex-start;
+	    margin-left: 25px;
+    }
+
+    .second-row-content {
+    	margin-top: -10px;
+	    margin-left: 128px;
+    }
+
+	.link-container {	
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		width: 85%;
+		margin-left: auto;
+	    margin-right: auto;
+	    margin-top: 290px;
+	}
+
+	.link-area {
+		width: 48%;
+		margin-left: 0;
+		margin-right: 0;
+		border-radius: 45px;
+		margin-bottom: 87px;
+		padding-bottom: 0;
+	}
+
+	.apple-icon, .google-icon {
+		width: 42px;
+		height: 42px;
+	}
+
+	.upper-row, .lower-row {
+		font-size: 14px;
+	}
+
+	.link-area-content {
+		width: 80%;
+		padding-top: 15px;
+		padding-bottom: 15px;
+	}
+
+	.text-link {
+		margin-left: 28px;
+	}
+
+    .logo-picture {
+		width: 28%;
+		height: 56px;
+	}
+
+	.first-section {
+		position: relative;
+	}
+
+	.first-section-title {
+		padding-left: 288px;
+		margin-top: 50px;
+		margin-bottom: 40px;
+		font-size: 80px;
+	}
+
+	.players-title {
+		padding-left: 14px;
+		margin-top: 50px;
+		margin-bottom: 30px;
+     }
+
+	.pic-athlets {
+		position: absolute;
+		top: 15px;
+		left: -160px;
+		bottom: 80px;
+	}
+
+	.pic-players {
+		position: absolute;
+		top: -25px;
+		right: 0;
+		bottom: 152px;
+		margin-left: 280px;
+	}
+
+	.card-item {
+    	padding-top: 40px;
+    	padding-left: 268px;
+    }
+
+    
+	.athlets-section-content, .players-section-content {
+	    margin-top: 0;
+    }
+
+    .players, .players-third {
+    	padding-left: 0;
+    }
+
+    .card-item:first-child {
+	    background-color: #ffffff;
+	    padding-top: 0;
+    }
+
+    .item-content,.item-content-third {
+    	width: 90%;
+    	padding-bottom: 42px;
+    	font-size: 16px;
+    	line-height: 28px;
+    }
+    
+    .players-text {
+    	width: 54%;
+    	padding-bottom: 40px;
+    	font-size: 16px;
+    }
+
+    .item-number,.item-number-third, .players-number-third {
+    	font-size: 18px;
+    }
+
+    .item-title {
+    	font-size: 32px;
+    	padding-bottom: 5px;
+    }
+
+    .card-number {
+    	width: 118px;
+    	padding: 42px;
+    	bottom: -30px;
+    	left: 35px;
+    }
+
+    .number {
+        font-size: 24px;
+    }
+
+    .number::after {
+    	width: 25px;
+    }
+    
+    .card-title {
+    	font-size: 80px;
+    	margin-top: 41px;
+    	padding-left: 25px;
+    }   
+
+    .card-content {
+    	font-size: 24px;
+    	padding-left: 30px;
+    	margin-bottom: 105px;
+    }
+
+    .footer {
+    	padding-bottom: 20px;
+    }
+
+    .logo-footer-container {
+	    width: 130px;
+	    padding-top: 150px;
+    }
+
+    .logo-picture-footer {
+    	width: 105px;
+    	height: 85px;
+    	padding: 24px 14px;
+    }
+
+    .logo-footer {
+	    border-radius: 30px;
+	}
+
+	.footer-content {
+		width: 95%;
+	}
+        
+    .download {
+    	font-size: 80px;
+    }
+
+    .footer-text {
+    	font-size: 36px;
+    }
+
+    .footer-link {
+    	margin-top: 275px;
+    }
+
+    .footer-link-area {
+    	margin-bottom: 35px;
+    }
+
+}
+
+
+@media(min-width: 961px) {
+
+	.page-head {
+	    background-image: url("https://raw.githubusercontent.com/netology-code/mq-diploma/master/sources/img/football_1920.jpg");
+	}
+
+	.logo-picture {
+		height: 56px;
+	}
+    
+    .header-content {
+		width: 85%;
+		font-size: 90px;
+		margin-left: auto;
+	    margin-right: auto;
+	    margin-top: 260px;
+	}
+
+	.first-row-content {
+		margin-left: 32px;
+	}
+
+    .second-row-content {
+	    display: block;
+	    margin-left: 480px;
+	    margin-top: -25px;
+    }
+
+    .link-container {	
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		width: 37%;
+		min-width: 675px;
+		margin-left: auto;
+	    margin-right: auto;
+	    margin-top: 200px;
+	}
+
+	.link-area {
+		width: 46%;
+		min-width: 306px;
+		margin-left: 0;
+		margin-right: 0;
+		border-radius: 45px;
+		margin-bottom: 110px;
+		padding-bottom: 0;
+	}
+
+	.google-play {
+		padding-left: 25px;
+	}
+
+	.link-area-content {
+		width: 80%;
+		padding-top: 15px;
+		padding-bottom: 15px;
+	}
+
+	.link-area-text {
+		padding-top: 7px;
+	}
+
+	.apple-icon, .google-icon {
+		width: 48px;
+		height: 48px;
+	}
+
+	.upper-row, .lower-row {
+		font-size: 14px;
+	}
+
+	.first-section {
+		position: relative;
+	}
+
+	.first-section-title {
+		padding-left: 1000px;
+		margin-top: 80px;
+		margin-bottom: 90px;
+		font-size: 80px;
+	}
+
+	.players-title {
+		padding-left: 190px;
+		margin-top: 80px;
+		margin-bottom: 90px;
+     }
+
+	.pic-athlets {
+		position: absolute;
+		top: -50px;
+		left: 385px;
+		bottom: 80px;
+	}
+
+	.pic-players {
+		position: absolute;
+		top: -65px;
+		right: 125px;
+		bottom: 152px;
+		margin-left: 600px;
+	}
+
+	.card-item {
+    	padding-top: 59px;
+    	padding-left: 973px;
+    }
+
+	.athlets-section-content, .players-section-content {
+	    margin-top: 0;
+    }
+
+    .players, .players-third {
+    	padding-left: 175px;
+    }
+
+    .card-item:first-child {
+	    background-color: #ffffff;
+	    padding-top: 0;
+    }
+
+    .item-content,.item-content-third {
+    	width: 80%;
+    	padding-bottom: 68px;
+    	font-size: 20px;
+    }
+
+    .players-text {
+    	width: 40%;
+    	padding-bottom: 70px;
+    	font-size: 20px;
+    }
+
+
+    .players-second-text {
+    	padding-bottom: 95px;
+    	padding-top: 23px;
+    }
+
+    .item-content-third {
+    	padding-bottom: 50 px;
+    }
+
+
+    .item-number,.item-number-third, .players-number-third {
+    	font-size: 18px;
+    }
+
+    .item-title {
+    	font-size: 36px;
+    	padding-bottom: 5px;
+    }
+
+
+    .card-number {
+    	width: 118px;
+    	padding: 42px;
+    	bottom: -20px;
+    }
+
+    .number {
+        font-size: 24px;
+    }
+
+    .number::after {
+    	width: 25px;
+    }
+
+    .footer {
+    	background-image: url(https://raw.githubusercontent.com/netology-code/mq-diploma/master/sources/img/game_1920.jpg);
+    }
+
+    .footer-header {
+    	width: 865px;
+    	display: flex;
+    	justify-content: center;
+    	margin-right: auto;
+    	margin-left: auto;
+    	padding-top: 226px;
+    }
+
+    .logo-footer-container {
+		width: 130px;
+		margin-left: 0;
+		margin-right: 36px;
+		padding-top: 98px;
+   }
+
+   .footer-content {
+   	    width: auto;
+	    position: relative;
+		z-index: 1; 
+		margin-left: 0;
+		margin-right: 0;
+		padding-top: 50px;
+  }
+
+    .download {
+    	font-size: 80px;
+    	line-height: 60px;
+    }
+
+    .footer-text {
+    	font-size: 30px;
+    	margin-top: 22px;
+    	line-height: 30px;
+    	text-align: left;
+    }
+
+    .logo-picture-footer {
+    	width: 87px;
+    	height: 86px;
+    	padding: 20px 16px;
+    }
+	
+	.logo-footer {
+		border-radius: 30px;
+		position: relative;
+		z-index: 1; 
+    }
+
+    .footer-link {
+    	margin-top: 150px;
+    	margin-bottom: 120px;
+    }
+
+	.logo-container {
+		padding-bottom: 52px;
+	}
+
+
+}
+
+
+@media(min-width: 961px) and (max-width: 1300px) {
+
+	.page-head {
+	    background-image: url("https://raw.githubusercontent.com/netology-code/mq-diploma/master/sources/img/football_1280.jpg");
+	}
+	
+    
+    .header-content {
+		font-size: 64px;
+	}
+
+    .second-row-content {
+	    display: block;
+	    margin-left: 114px;
+    }
+
+
+    .first-section {
+		position: relative;
+	}
+
+	.first-section-title {
+		padding-left: 288px;
+		margin-top: 50px;
+		margin-bottom: 25px;
+		font-size: 80px;
+	}
+
+	.players-title {
+		padding-left: 14px;
+		margin-top: 50px;
+		margin-bottom: 30px;
+     }
+
+	.pic-athlets {
+		position: absolute;
+		top: 15px;
+		left: -160px;
+		bottom: 80px;
+	}
+
+	.pic-players {
+		position: absolute;
+		top: -25px;
+		right: 0;
+		bottom: 152px;
+		margin-left: 280px;
+	}
+
+	.card-item {
+    	padding-top: 40px;
+    	padding-left: 268px;
+    }
+
+	.athlets-section-content, .players-section-content {
+	    margin-top: 0;
+    }
+
+    .players, .players-third {
+    	padding-left: 0;
+    }
+
+    .card-item:first-child {
+	    background-color: #ffffff;
+	    padding-top: 0;
+    }
+
+    .item-content,.item-content-third {
+    	width: 90%;
+    	padding-bottom: 40px;
+    	font-size: 16px;
+    }
+    
+    .players-text {
+    	width: 54%;
+    	padding-bottom: 40px;
+    	font-size: 16px;
+    }
+
+    .item-number,.item-number-third, .players-number-third {
+    	font-size: 18px;
+    }
+
+    .item-title {
+    	font-size: 32px;
+    	padding-bottom: 5px;
+    }
+
+    .footer {
+    	background-image: url(https://raw.githubusercontent.com/netology-code/mq-diploma/master/sources/img/game_1280.jpg);
+    }
+
+
+}
+
+@media(min-width: 1860px) {
+
+     .card {
+    	display: flex;
+	}
+
+    .card-header {
+    	width: 50%;
+    }
+
+    .card-container {
+    	box-sizing: border-box;
+    	width: 50%;
+    	padding-left: 129px;
+    }
+
+    .second-card-header {
+    	order: 1;
+    }
+
+    .second-card {
+        order: 0;
+    }
+
+    .card-title {
+    	display: block;
+    	margin-top: 0;
+    	padding-top: 180px;
+    	padding-left: 0;
+    	margin-bottom: 80px;
+    	font-size: 80px;
+    }
+
+    .card-content {
+    	width: 75%;
+    	padding-bottom: 110px;
+    	padding-left: 5px;
+    	font-size: 24px;
+    }
+
+    .card-number {
+		position: absolute;
+		box-sizing: border-box;
+		width: 168px;
+		background-color: #5e42b0;
+		padding: 58px 68px 58px;
+		top: 170px;
+		right: 0;
+		left: auto;
+		bottom: auto;
+		transform: translate(50%);
+    }
+    
+    .card:nth-child(even) .card-number {
+        top: 160px;
+		right: auto;
+		left: 0;
+		bottom: auto;
+		transform: translate(-50%);
+    }
+
+    .card:nth-child(even) .card-container {
+    	box-sizing: border-box;
+    	padding-left: 170px;
+    }
+
+    .card:nth-child(even) .card-title {
+        margin-bottom: 50px;	
+    }
+
+    .number {
+        font-size: 24px;
+    }
+
+    .number::after {
+    	width: 25px;
+    }
+}
+
+@media(min-width: 1921px) {
+
+     .card-item-athlets {	
+        padding-left: 50%;
+    }
+
+    .athlets-title {
+    	padding-left: 50.5%;
+    }
+
+    .players, .players-third {	
+        padding-left: 30%;
+    }
+
+    .players-title {
+    	padding-left: 30.5%;
+    }
+
+    .card:nth-child(even) .card-container {
+    	 padding-right: 120px;
+    }
+
+    .card:nth-child(even) .card-title {
+         text-align: right;
+         
+    }
+
+    .card:nth-child(even) .card-content {
+    	text-align: right;
+    	padding: 0;
+    	margin: 0;
+    }
+
+}
