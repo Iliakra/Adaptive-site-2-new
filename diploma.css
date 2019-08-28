@@ -1057,37 +1057,4 @@ picture img {
     }
 }
 
-@media(min-width: 1921px) {
 
-     .card-item-athlets {	
-        padding-left: 50%;
-    }
-
-    .athlets-title {
-    	padding-left: 50.5%;
-    }
-
-    .players, .players-third {	
-        padding-left: 30%;
-    }
-
-    .players-title {
-    	padding-left: 30.5%;
-    }
-
-    .card:nth-child(even) .card-container {
-    	 padding-right: 120px;
-    }
-
-    .card:nth-child(even) .card-title {
-         text-align: right;
-         
-    }
-
-    .card:nth-child(even) .card-content {
-    	text-align: right;
-    	padding: 0;
-    	margin: 0;
-    }
-
-}
