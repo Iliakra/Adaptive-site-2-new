@@ -433,6 +433,12 @@ picture img {
 	margin-bottom: 50px;
 }
 
+@media (max-width: 640px) {
+   .pic-players img {
+	    width: auto;
+    }
+}
+
 @media(min-width: 641px) and (max-width: 960px) {
 
 	.logo-picture {
