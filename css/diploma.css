@@ -26,7 +26,7 @@ ol {
 
 @font-face {
 	font-family: "Open Sans";
-	src: url(https:../fonts/OpenSans-Bold.ttf);
+	src: url(../fonts/OpenSans-Bold.ttf);
 	font-weight: bold;
 	font-style: normal;
 }
@@ -34,7 +34,7 @@ ol {
 
 @font-face {
 	font-family: "Open Sans";
-	src: url(https:../fonts/OpenSans-Regular.ttf);
+	src: url(../fonts/OpenSans-Regular.ttf);
 	font-weight: normal;
 	font-style: normal;
 }
