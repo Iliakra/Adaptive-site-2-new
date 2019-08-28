@@ -434,7 +434,7 @@ picture img {
 }
 
 @media (max-width: 640px) {
-   .pic-players img {
+   .pic-athlets img {
 	    width: auto;
     }
 }
